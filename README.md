@@ -1,2 +1,4 @@
 # rock_paper_scissors
-Simple rock paper scissors game with Python
+This is a simple Rock Paper Scissors game using Python. 
+I am using functions for updating the scores. 
+
