@@ -40,7 +40,7 @@ def score():
     global computer_score
     global user_score
     global draw
-    print('Score: '+ 'Sachu: '+ str(computer_score)+ ' Tina: '+ str(user_score)+ ' Draw: '+ str(draw))
+    print('Score: '+ 'You: '+ str(computer_score)+ ' Me: '+ str(user_score)+ ' Draw: '+ str(draw))
     print()
     return
 
@@ -51,7 +51,7 @@ print('Enter (R) for Rock, (P) for Paper, (S) for Scissor,(Q) to Quit')
 
 while(True):
     print()
-    print("Tina:")
+    print("You:")
     user_input = input()
     if (user_input == 'Q'):
        break;
@@ -59,7 +59,7 @@ while(True):
     if ((user_input == 'R') or (user_input == 'P') or (user_input =='S')):
     
         computer_input = computer_turn()
-        print("Sachu: "+ computer_input)
+        print("Me: "+ computer_input)
         
             
         if (user_input == computer_input):
